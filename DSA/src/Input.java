@@ -1,5 +1,6 @@
 //How to take input in arrays
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Input {
@@ -18,9 +19,12 @@ public class Input {
 //        }
 
 //        for each loop to display elements of the array
-        for(int num : arr){  // for every element in array, print the element
-          System.out.println(num + ""); // here num represents the element of the array
-        }
+//        for(int num : arr){  // for every element in array, print the element
+//          System.out.println(num + ""); // here num represents the element of the array
+//        }
 
+
+//        Or we can convert the array into String and then print it
+        System.out.println(Arrays.toString(arr));
     }
 }
