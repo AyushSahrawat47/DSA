@@ -12,8 +12,14 @@ public class Input {
             arr[i] = input.nextInt();
         }
 
-        for (int i =0; i< arr.length; i++){
-            System.out.println(arr[i] + " ");
+//        for loop to display every element of the array
+//        for (int i =0; i< arr.length; i++){
+//            System.out.println(arr[i] + " ");
+//        }
+
+//        for each loop to display elements of the array
+        for(int num : arr){  // for every element in array, print the element
+          System.out.println(num + ""); // here num represents the element of the array
         }
 
     }
